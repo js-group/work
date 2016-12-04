@@ -1,12 +1,18 @@
 #js core
 
-1.安装依赖
+安装
 
 ```js
 npm install
 ```
 
-2.将src目录中的源码编译到dist目录：
+语法检测
+
+```js
+npm run lint
+```
+
+打包(将src目录中的源码编译到dist目录)
 
 ```js
 npm run build

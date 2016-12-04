@@ -1,5 +1,5 @@
-function add(num1=10, num2=20){
-    return num1 + num2;
+function add (first = 10, second = 20) {
+    return first + second;
 }
 
 export default { add };

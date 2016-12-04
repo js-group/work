@@ -1,0 +1,10 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "extends": "vue",
+  "rules": {
+    "no-useless-escape": 0,
+    "indent": [2, 4, { 'SwitchCase': 1 }],
+    "semi": [2, "always"]
+  }
+}
