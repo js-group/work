@@ -1,0 +1,27 @@
+{
+  "name": "js-group-work",
+  "version": "1.0.0",
+  "description": "this is first github project test...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/rollup/bin/rollup -c rollup.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js-group/work.git"
+  },
+  "author": "jianming",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js-group/work/issues"
+  },
+  "homepage": "https://github.com/js-group/work",
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2015-rollup": "^1.2.0",
+    "rollup": "^0.36.4",
+    "rollup-plugin-babel": "^2.6.1"
+  }
+}
