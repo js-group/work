@@ -14,9 +14,7 @@ var algorithm = function(a,b){
 	
 	// typeof [number,boolean,string,function,object,undefined]
 	if(typeof a !== 'number' || typeof b !== 'number'){
-		console.log('type error');
-		console.log(a);
-	    console.log(b);
+		console.error('type error');
 		return false;
 	}
 	
